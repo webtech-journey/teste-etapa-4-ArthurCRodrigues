@@ -1,66 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Cronograma do Evento</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  />
+
   <style>
-    table {
-      border: 2px solid #000;
-      border-collapse: collapse;
-      width: 90%;
-      margin: 20px auto;
+    .card-custom {
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+      padding: 20px;
+      border-radius: 12px;
     }
 
-    th, td {
-      border: 1px solid #000;
-      padding: 10px;
-      text-align: center;
-    }
-
-    caption {
-      font-weight: bold;
-      font-size: 1.4em;
-      margin-bottom: 10px;
-    }
-
-    .destaque {
-      background-color: #f5f5dc;
+    .btn:hover {
+      background-color: #0056b3;
+      color: white;
     }
   </style>
 </head>
 <body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 d-flex justify-content-center">
+        <div class="card card-custom text-center">
+          <img
+            src="https://via.placeholder.com/150"
+            class="rounded-circle mx-auto mb-3"
+            alt="User profile picture"
+            width="150"
+            height="150"
+          />
+          <h3>John Doe</h3>
+          <p>Full Stack Developer passionate about clean code and UI/UX design.</p>
+          <button class="btn btn-primary" onclick="alert('Followed!')">
+            Follow
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <table>
-    <caption>Cronograma do Evento de Tecnologia</caption>
-    <thead>
-      <tr>
-        <th>Horário</th>
-        <th >Atividades</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td rowspan="2">09:00 - 10:00</td>
-        <td>Palestra: Futuro da IA</td>
-        <td>Workshop: Introdução ao HTML</td>
-      </tr>
-      <tr>
-        <td  class="destaque">Coffee Break e Networking</td>
-      </tr>
-      <tr>
-        <td>10:30 - 12:00</td>
-        <td >Painel de Discussão: Ética na Tecnologia</td>
-      </tr>
-      <tr>
-        <td>12:00 - 13:30</td>
-        <td >Almoço</td>
-      </tr>
-      <tr>
-        <td rowspan="2">13:30 - 15:00</td>
-        <td>Workshop: Desenvolvimento Web</td>
-        <td  class="destaque">Encerramento e Sorteios</td>
-    </tbody>
-  </table>
-
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
