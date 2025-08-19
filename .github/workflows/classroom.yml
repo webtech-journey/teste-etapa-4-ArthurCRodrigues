@@ -1,5 +1,4 @@
-name: Autograder
-
+name: Autograderr
 on:
   push:
     branches:
@@ -13,10 +12,15 @@ jobs:
   grading:
     permissions: write-all
     runs-on: ubuntu-latest
-    if: github.actor != 'github-classroom[bot]'
+    if: github.actor != 'github-classroom[bot]' 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+           path: submission
 
       - name: Check repository criteria
-        uses: webtech-journey/autograder-journey-02-04@v1
+        uses: webtech-network/autograder@hex
+        with: 
+          grading_preset: "html-css-js"
+          feedback-type: "default"
