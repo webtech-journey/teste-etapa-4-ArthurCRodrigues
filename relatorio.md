@@ -1,29 +1,15 @@
-# 🧪 Relatório de Avaliação – Autograder HTML - ArthurCRodrigues
+# 🚨 Autograder Fatal Error Report
 
-**Data:** 11/04/2025 17:40
-
-**Nota Final:** `100.00/100`
-**Status:** ✅ Aprovado
+We're sorry, but the autograder could not run due to the following critical issues with your submission. Please fix them and resubmit.
 
 ---
-## ✅ Requisitos Obrigatórios (80%)
-- Todos os requisitos básicos foram atendidos. Excelente trabalho!
+## 📁 Missing Files
+The following required files were not found. Please ensure they are named correctly and are located in the root directory of your project.
 
-## ⭐ Itens de Destaque (20%)
-- Você conquistou `5` bônus! Excelente trabalho nos detalhes adicionais!
-  - 🌟 **Testes bônus passados**: `test_bonus.py::test_responsive_layout`
-    - O layout se ajusta corretamente para diferentes tamanhos de tela usando o sistema de grade do Bootstrap. Excelente!
-  - 🌟 **Testes bônus passados**: `test_bonus.py::test_custom_button_hover_effect`
-    - O efeito de hover personalizado para o botão foi implementado corretamente. Bom trabalho!
-  - 🌟 **Testes bônus passados**: `test_bonus.py::test_interactive_button`
-    - O botão é interativo com uma função JavaScript. Excelente!
-  - 🌟 **Testes bônus passados**: `test_bonus.py::test_profile_image_alt_text`
-    - A imagem de perfil tem o atributo 'alt' correto para acessibilidade. Bom trabalho!
-  - 🌟 **Testes bônus passados**: `test_bonus.py::test_custom_card_styling`
-    - O estilo personalizado para o fundo e as bordas da card foi implementado corretamente. Bom trabalho!
+- ` style.css `
+- ` script.js `
 
-## ❌ Problemas Detectados (Descontos de até -30%)
-- Nenhuma infração grave foi detectada. Muito bom nesse aspecto!
 
 ---
-Continue praticando e caprichando no código. Cada detalhe conta! 💪
+
+**Next Steps:** Please review the errors listed above, correct your project files accordingly, and submit your work again.
